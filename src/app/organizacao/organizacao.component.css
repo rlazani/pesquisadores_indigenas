@@ -1,0 +1,58 @@
+/*
+===============
+Organização
+===============
+*/
+
+.org {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #f7f2e1 0%,
+    #e8e2d3 0%,
+    #e0d7ba 27%,
+    #ccbb80 53%,
+    #97aa6b 77%,
+    #849636 99%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#org__h1 {
+  margin: 7rem 0 5rem 0;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem 0rem 15rem 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.div__icons {
+  height: 10rem;
+  display: flex;
+  margin: 0 5rem;
+}
+#caiapi {
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .icons {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0rem 7rem 0;
+  }
+  .div__icons {
+    height: 10rem;
+    display: flex;
+    margin: 2rem 0;
+  }
+  #caiapi {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,184 @@
+button {
+  margin-top: 30px;
+  margin-left: 90%;
+}
+/*
+===============
+PROJETOS
+===============
+
+
+*/
+.resumo {
+  width: 70vw;
+  padding: 1rem;
+  overflow-y: scroll;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background: #d77206;
+  padding: 0.25rem;
+  border-radius: 50%;
+  box-shadow: var(--dark-shadow);
+  margin: 0 auto;
+}
+
+.projetos {
+  height: 95vh;
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(242, 192, 136);
+  background-color: rgb(252, 249, 244);
+}
+
+.fechar {
+  margin-left: 95%;
+  cursor: pointer;
+  padding: 1rem;
+  color: rgb(242, 112, 6);
+  font-size: 2rem;
+  margin-bottom: -6rem;
+  z-index: 0;
+  position: relative;
+}
+.fechar:hover {
+  opacity: 80%;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: flex;
+}
+
+.autor {
+  background-color: rgb(250, 249, 246);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.dados {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.resumo {
+  width: 70vw;
+  padding: 1rem;
+  overflow-y: scroll;
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+
+.nome {
+  color: rgb(255, 111, 0);
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.lattes {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: rgb(255, 111, 0);
+}
+.lattes:hover {
+  opacity: 60%;
+}
+
+.titulo {
+  display: block;
+  font-style: italic;
+  color: rgb(103, 101, 101);
+  font-size: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 70%;
+  text-align: center;
+  margin: 2rem auto;
+  line-height: 28px;
+}
+.texto {
+  margin-bottom: 5rem;
+  padding: 2rem 30rem;
+}
+
+.blur {
+  filter: blur(20px);
+  opacity: 20%;
+}
+
+@media screen and (max-width: 1800px) {
+  .texto {
+    margin-bottom: 5rem;
+    padding: 2rem 20rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .projetos {
+    width: 100vw;
+    margin: 0;
+  }
+  .texto {
+    margin-bottom: 5rem;
+    padding: 2rem 7rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .texto {
+    margin-bottom: 5rem;
+    padding: 2rem 5rem;
+  }
+  .autor {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dados {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .nome {
+    color: rgb(255, 111, 0);
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .texto {
+    font-size: 1rem;
+    padding: 2rem 2rem;
+  }
+}

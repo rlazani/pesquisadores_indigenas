@@ -1,0 +1,10 @@
+<body>
+  <main>
+    <app-header *ngIf="carregar === 'ficha-fechada-app'"></app-header>
+    <app-participantes
+      (sinalFechamentoApp)="fecharFicha($event)"
+      (sinalAberturaApp)="abrirFicha($event)"
+    ></app-participantes>
+    <app-organizacao *ngIf="carregar === 'ficha-fechada-app'"></app-organizacao>
+  </main>
+</body>

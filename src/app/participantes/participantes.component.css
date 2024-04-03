@@ -1,0 +1,58 @@
+/*
+===============
+SLIDER
+===============
+*/
+.slider {
+  margin: 0 auto;
+  background-color: #f1e7da;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.slider__titulo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 5rem auto;
+  color: rgb(30, 29, 29);
+}
+.participantes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f1e7da;
+}
+@media screen and (max-width: 1500px) {
+  .slide {
+    margin: 1rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .slide {
+    margin: 1rem;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .slider__titulo h2 {
+    font-size: 4.5rem;
+  }
+  .slide {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .slider__titulo h2 {
+    font-size: 3.5rem;
+  }
+  .slide {
+    margin: 1rem;
+    width: 100%;
+  }
+  .slide-container {
+    margin: 2rem;
+  }
+}

@@ -1,0 +1,22 @@
+<section
+  class="slider"
+  id="participantes__link"
+  *ngIf="carregarLocal === 'ficha-fechada'"
+>
+  <div class="slider__titulo">
+    <h2 id="participantes">Participantes</h2>
+  </div>
+  <div class="participantes">
+    <app-pesquisador
+      *ngFor="let pesquisador of pesquisadores"
+      [pesquisador]="pesquisador"
+      (click)="abrirFicha(pesquisador)"
+    ></app-pesquisador>
+  </div>
+</section>
+<section class="ficha" *ngIf="carregarLocal === 'ficha-aberta'">
+  <app-ficha
+    (sinalFechamento)="fecharFicha($event)"
+    [objetoFilho]="objetoPai"
+  ></app-ficha>
+</section>

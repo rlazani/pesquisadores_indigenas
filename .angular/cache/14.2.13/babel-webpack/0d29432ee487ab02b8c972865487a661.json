@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Pesquisador {\n  constructor(img, nome, titulo, local, lattes, descricao) {\n    this.img = img;\n    this.nome = nome;\n    this.titulo = titulo;\n    this.local = local;\n    this.lattes = lattes;\n    this.descricao = descricao;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
