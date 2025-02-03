@@ -11,7 +11,7 @@ CARDS
   margin: 1rem;
   border: 1px solid rgb(213, 211, 211);
   width: 20rem;
-  height: 23rem;
+  height: 15rem;
 }
 .card:hover {
   opacity: 75%;
